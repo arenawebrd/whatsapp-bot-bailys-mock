@@ -1,0 +1,225 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219616507069@s.whatsapp.net',
+    fromMe: false,
+    id: '3A0FE293B2B080D1912B',
+    participant: undefined
+  },
+  messageTimestamp: 1678222186,
+  pushName: 'Kadmiel',
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5219616507069'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219616507069@s.whatsapp.net',
+    fromMe: false,
+    id: '3A11EA241EDB8B28B78D',
+    participant: undefined
+  },
+  messageTimestamp: 1678222197,
+  pushName: 'Kadmiel',
+  message: Message {
+    conversation: 'doc',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'doc',
+  from: '5219616507069'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219616507069@s.whatsapp.net',
+    fromMe: false,
+    id: '3A27F2B48FDFA21EDEC3',
+    participant: undefined
+  },
+  messageTimestamp: 1678222211,
+  pushName: 'Kadmiel',
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5219616507069'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '4DEC9C99014E97F9F0A401B8191D1192',
+    participant: undefined
+  },
+  messageTimestamp: 1678222366,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '934289E38F76858949FADC5B6E8E3256',
+    participant: undefined
+  },
+  messageTimestamp: 1678222375,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Seguimos en casa de la jefa',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Seguimos en casa de la jefa',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '93FF0949BB303F75FC827C05A201334F',
+    participant: undefined
+  },
+  messageTimestamp: 1678222388,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Jajajaja',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Jajajaja',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: 'EDAEFAE3E966D4B390898A192DDFD246',
+    participant: undefined
+  },
+  messageTimestamp: 1678222389,
+  pushName: '❤️',
+  message: Message {
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [Array],
+      url: 'https://mmg.whatsapp.net/o1/v/t62.7118-24/f1/m230/up-oil-image-f088da48-5643-4d4e-a4c2-1dfd4b43084f?ccb=9-4&oh=01_AdQA8ETdn87_1vsRsh90n2s-1jC2ZRdsLfZyIHn2Lp6eXg&oe=642F01A6&mms3=true',
+      mimetype: 'image/jpeg',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 1599,
+      width: 899,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/o1/v/t62.7118-24/f1/m230/up-oil-image-f088da48-5643-4d4e-a4c2-1dfd4b43084f?ccb=9-4&oh=01_AdQA8ETdn87_1vsRsh90n2s-1jC2ZRdsLfZyIHn2Lp6eXg&oe=642F01A6',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      scansSidecar: [Uint8Array],
+      midQualityFileSha256: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__5d237be3-48cf-43d2-89bf-7fcec98ead6a',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '72FA5745BDE9974367D43F1C419B2709',
+    participant: undefined
+  },
+  messageTimestamp: 1678222399,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Siii ya le dije a jjosue pero quiere andar de pedinche',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Siii ya le dije a jjosue pero quiere andar de pedinche',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: 'A7945CE2C2BF45390DD42B890D659A62',
+    participant: undefined
+  },
+  messageTimestamp: 1678222404,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Jajajajjajaja',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Jajajajjajaja',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: 'DDB3DFE507646746D8C376E8667D78AB',
+    participant: undefined
+  },
+  messageTimestamp: 1678222406,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'El es',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'El es',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '83239262D05648DCF2E7A45064217467',
+    participant: undefined
+  },
+  messageTimestamp: 1678222414,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Están mostrandole lo de su face',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Están mostrandole lo de su face',
+  from: '5219612015632'
+}
