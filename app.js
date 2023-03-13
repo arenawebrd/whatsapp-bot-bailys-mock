@@ -10,7 +10,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 const QRPortalWeb = require('@bot-whatsapp/portal')
 
 //Flows
-const { flow } = require('./flows')
+const { flow, flowBoda, flowSesionesPreBoda, flowAdicionales, flowPreguntas } = require('./flows')
 
 
 
@@ -19,7 +19,7 @@ const main = async () => {
     //Para usar la base de datos en memoria
     const adapterDB = new MockAdapter()
     //Para crear los flows
-    const adapterFlow = createFlow([flow])
+    const adapterFlow = createFlow([flow,flowBoda,flowSesionesPreBoda,flowAdicionales, flowPreguntas])
     //Para crear el proveedor de la API de WhatsApp
     const adapterProvider = createProvider(BaileysProvider)
 

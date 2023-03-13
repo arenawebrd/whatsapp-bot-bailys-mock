@@ -1,225 +1,349 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5219616507069@s.whatsapp.net',
+    remoteJid: '5219611382035@s.whatsapp.net',
     fromMe: false,
-    id: '3A0FE293B2B080D1912B',
+    id: '3EB04B52F0B679A0EBA5',
     participant: undefined
   },
-  messageTimestamp: 1678222186,
-  pushName: 'Kadmiel',
+  messageTimestamp: 1678738825,
+  pushName: 'Arody Fotografía',
   message: Message {
-    conversation: 'Hola',
+    conversation: 'hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola',
-  from: '5219616507069'
+  verifiedBizName: 'Arody Fotografía',
+  body: 'hola',
+  from: '5219611382035'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5219616507069@s.whatsapp.net',
+    remoteJid: '5219612047311@s.whatsapp.net',
     fromMe: false,
-    id: '3A11EA241EDB8B28B78D',
+    id: '3FB1CC18C56D8C4AB9B73EBD38DA55C4',
     participant: undefined
   },
-  messageTimestamp: 1678222197,
-  pushName: 'Kadmiel',
+  messageTimestamp: 1678739177,
+  pushName: 'Miri',
   message: Message {
-    conversation: 'doc',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
-    }
-  },
-  body: 'doc',
-  from: '5219616507069'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219616507069@s.whatsapp.net',
-    fromMe: false,
-    id: '3A27F2B48FDFA21EDEC3',
-    participant: undefined
-  },
-  messageTimestamp: 1678222211,
-  pushName: 'Kadmiel',
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '5219616507069'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219612015632@s.whatsapp.net',
-    fromMe: false,
-    id: '4DEC9C99014E97F9F0A401B8191D1192',
-    participant: undefined
-  },
-  messageTimestamp: 1678222366,
-  pushName: '❤️',
-  message: Message {
-    conversation: 'Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
-  from: '5219612015632'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219612015632@s.whatsapp.net',
-    fromMe: false,
-    id: '934289E38F76858949FADC5B6E8E3256',
-    participant: undefined
-  },
-  messageTimestamp: 1678222375,
-  pushName: '❤️',
-  message: Message {
-    conversation: 'Seguimos en casa de la jefa',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Seguimos en casa de la jefa',
-  from: '5219612015632'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219612015632@s.whatsapp.net',
-    fromMe: false,
-    id: '93FF0949BB303F75FC827C05A201334F',
-    participant: undefined
-  },
-  messageTimestamp: 1678222388,
-  pushName: '❤️',
-  message: Message {
-    conversation: 'Jajajaja',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Jajajaja',
-  from: '5219612015632'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219612015632@s.whatsapp.net',
-    fromMe: false,
-    id: 'EDAEFAE3E966D4B390898A192DDFD246',
-    participant: undefined
-  },
-  messageTimestamp: 1678222389,
-  pushName: '❤️',
-  message: Message {
-    imageMessage: ImageMessage {
-      interactiveAnnotations: [],
-      scanLengths: [Array],
-      url: 'https://mmg.whatsapp.net/o1/v/t62.7118-24/f1/m230/up-oil-image-f088da48-5643-4d4e-a4c2-1dfd4b43084f?ccb=9-4&oh=01_AdQA8ETdn87_1vsRsh90n2s-1jC2ZRdsLfZyIHn2Lp6eXg&oe=642F01A6&mms3=true',
-      mimetype: 'image/jpeg',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      height: 1599,
-      width: 899,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/o1/v/t62.7118-24/f1/m230/up-oil-image-f088da48-5643-4d4e-a4c2-1dfd4b43084f?ccb=9-4&oh=01_AdQA8ETdn87_1vsRsh90n2s-1jC2ZRdsLfZyIHn2Lp6eXg&oe=642F01A6',
-      mediaKeyTimestamp: [Long],
-      jpegThumbnail: [Uint8Array],
-      scansSidecar: [Uint8Array],
-      midQualityFileSha256: [Uint8Array]
     },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-0',
+      selectedDisplayText: '👉 Sesión preboda',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: '👉 Sesión preboda',
+  from: '5219612047311'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612047311@s.whatsapp.net',
+    fromMe: false,
+    id: '344C118D9923A309EF0274ACBBAC5D35',
+    participant: undefined
+  },
+  messageTimestamp: 1678739214,
+  pushName: 'Miri',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: '👉 El día de la boda',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: '👉 El día de la boda',
+  from: '5219612047311'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: 'F608EADB0E1D1E502E3AE28B7097CD38',
+    participant: undefined
+  },
+  messageTimestamp: 1678739422,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '_event_media__5d237be3-48cf-43d2-89bf-7fcec98ead6a',
+  body: 'Hola',
   from: '5219612015632'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219612015632@s.whatsapp.net',
     fromMe: false,
-    id: '72FA5745BDE9974367D43F1C419B2709',
+    id: '723C31020EF5AE12C4E4EA80B18069B9',
     participant: undefined
   },
-  messageTimestamp: 1678222399,
+  messageTimestamp: 1678739429,
   pushName: '❤️',
   message: Message {
-    conversation: 'Siii ya le dije a jjosue pero quiere andar de pedinche',
+    conversation: 'Aja que vayan alguitas jajajjaa',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Siii ya le dije a jjosue pero quiere andar de pedinche',
+  body: 'Aja que vayan alguitas jajajjaa',
   from: '5219612015632'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219612015632@s.whatsapp.net',
     fromMe: false,
-    id: 'A7945CE2C2BF45390DD42B890D659A62',
+    id: 'CD2243991B7831B8382152AB3025209D',
     participant: undefined
   },
-  messageTimestamp: 1678222404,
+  messageTimestamp: 1678739436,
   pushName: '❤️',
   message: Message {
-    conversation: 'Jajajajjajaja',
+    conversation: '35 se me hace muy poquitas',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Jajajajjajaja',
+  body: '35 se me hace muy poquitas',
   from: '5219612015632'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219612015632@s.whatsapp.net',
     fromMe: false,
-    id: 'DDB3DFE507646746D8C376E8667D78AB',
+    id: 'C24B9A7F4A03A16082A9F2FE9FED52E1',
     participant: undefined
   },
-  messageTimestamp: 1678222406,
+  messageTimestamp: 1678739439,
   pushName: '❤️',
   message: Message {
-    conversation: 'El es',
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'El es',
+  body: 'Hola',
   from: '5219612015632'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219612015632@s.whatsapp.net',
     fromMe: false,
-    id: '83239262D05648DCF2E7A45064217467',
+    id: 'B643DCA841FEB3664CD9429DC2919136',
     participant: undefined
   },
-  messageTimestamp: 1678222414,
+  messageTimestamp: 1678739544,
   pushName: '❤️',
   message: Message {
-    conversation: 'Están mostrandole lo de su face',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-0',
+      selectedDisplayText: '👉 Sesión preboda',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: '👉 Sesión preboda',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '2FC34399313BC7E583B970FCEB9EF998',
+    participant: undefined
+  },
+  messageTimestamp: 1678739564,
+  pushName: '❤️',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: '👉 El día de la boda',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: '👉 El día de la boda',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '9D279ADE9896D57AA0D60C920B9212D8',
+    participant: undefined
+  },
+  messageTimestamp: 1678739592,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Aja',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Están mostrandole lo de su face',
+  body: 'Aja',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '25AC2A948518FF25D50FEAF26FD32BC5',
+    participant: undefined
+  },
+  messageTimestamp: 1678739596,
+  pushName: '❤️',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-2',
+      selectedDisplayText: '👉 Adicionales',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: '👉 Adicionales',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '9A201A6A7D1C29409F1B0A098368E773',
+    participant: undefined
+  },
+  messageTimestamp: 1678739630,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Aja solo falta q le pongas num de fotos a la primera',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Aja solo falta q le pongas num de fotos a la primera',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '2B5D3CBEA2103924076433E5D6F2BA33',
+    participant: undefined
+  },
+  messageTimestamp: 1678740037,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Ya',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ya',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: 'D57F983AD79902CCFFAEB09005960BD2',
+    participant: undefined
+  },
+  messageTimestamp: 1678740040,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Si manda',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Si manda',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '5CBEBB10C5825DDA23BD9475B4637E60',
+    participant: undefined
+  },
+  messageTimestamp: 1678740047,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Solo q no tengo el wths en la maquina',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Solo q no tengo el wths en la maquina',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '2FB0D1C4018918AAF346A8F74171310C',
+    participant: undefined
+  },
+  messageTimestamp: 1678740086,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Ya',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ya',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: '16A33ED69D2C7D2066B3DB55C5C9E4D9',
+    participant: undefined
+  },
+  messageTimestamp: 1678740131,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Si',
   from: '5219612015632'
 }
