@@ -1,0 +1,38 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: 'A2B6A07F324AB0EA19BDC3375681EE00',
+    participant: undefined
+  },
+  messageTimestamp: 1678830394,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Si es del oto pido un rollo mad',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Si es del oto pido un rollo mad',
+  from: '5219612015632'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219612015632@s.whatsapp.net',
+    fromMe: false,
+    id: 'A5F382FE8CF773CEFC350C31A11B4ACA',
+    participant: undefined
+  },
+  messageTimestamp: 1678830405,
+  pushName: '❤️',
+  message: Message {
+    conversation: 'Y pasamos a tlaelo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Y pasamos a tlaelo',
+  from: '5219612015632'
+}

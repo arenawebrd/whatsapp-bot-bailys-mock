@@ -14,6 +14,7 @@ const { flow, flowBoda, flowSesionesPreBoda, flowAdicionales, flowPreguntas } = 
 
 
 
+
 const main = async () => {
 
     //Para usar la base de datos en memoria
@@ -22,6 +23,8 @@ const main = async () => {
     const adapterFlow = createFlow([flow,flowBoda,flowSesionesPreBoda,flowAdicionales, flowPreguntas])
     //Para crear el proveedor de la API de WhatsApp
     const adapterProvider = createProvider(BaileysProvider)
+
+
 
     //Creamos el bot
     createBot({
