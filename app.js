@@ -25,9 +25,11 @@ const main = async () => {
 
     //Creamos el bot
     createBot({
+
         flow: adapterFlow,
         provider: adapterProvider,
         database: adapterDB,
+        
     })
 
     QRPortalWeb({port:4001})

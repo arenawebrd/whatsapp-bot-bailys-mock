@@ -1,6 +1,7 @@
 const { addKeyword } = require('@bot-whatsapp/bot')
 
 
+
 const flowPreguntas = addKeyword(['👉 Preguntas Frecuentes']).addAnswer(
     [
         '📝 *Preguntas Frecuentes*',
@@ -34,7 +35,7 @@ const flowPreguntas = addKeyword(['👉 Preguntas Frecuentes']).addAnswer(
         '',
         'Puedes apartar tu fecha con 30% de anticipo del valor del servicio contratado para la firma del contrato, el resto se paga dos semanas antes de la boda.',
 
-    ], {delay:1000 },
+    ], { delay:1000 },
     
 )
 
@@ -117,7 +118,7 @@ const flowBoda = addKeyword(['👉 El día de la boda']).addAnswer(
 
 
 
-const flow = addKeyword(['¡Hola! Me interesa tu servicio 😊']).addAnswer(
+const flow = addKeyword(['hola']).addAnswer(
 
     ['...'],{ media: 'https://arodyfajardo.com/wp-content/uploads/2023/03/intro2.mp4'}
 
@@ -127,8 +128,9 @@ const flow = addKeyword(['¡Hola! Me interesa tu servicio 😊']).addAnswer(
             '',
             '👰‍♀️🤵‍♂️ Podemos ofrecerte servicios de fotografía personalizados que se adapten a tus necesidades y presupuesto, desde fotografías antes de la boda hasta el día de la boda.',
             '',
-            'Puedes hacer touch en una o todas las opciones según lo que te interese 🤖. Por favor dime en que puedo ayudarte:',
+            'Puedes hacer touch en una o todas las opciones según lo que te interese 🤖',
             '',
+            'Por favor dime en que puedo ayudarte:',
 
         ], { delay: 1500 , buttons: [{ body: '👉 Sesión preboda' }, { body: '👉 El día de la boda' }, { body: '👉 Adicionales' }, { body: '👉 Preguntas Frecuentes' }],}
     )
