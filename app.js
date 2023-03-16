@@ -42,5 +42,3 @@ const main = async () => {
 //Ejecutamos el bot
 main()
 
-sendFile('+529611382035','bot.qr.png')
-
