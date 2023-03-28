@@ -1,5 +1,36 @@
 const { addKeyword } = require('@bot-whatsapp/bot')
 
+// Importa la biblioteca openai
+const { Configuration, OpenAIApi } = require('openai');
+
+// Configura la biblioteca openai con tu clave API
+const configuration = new Configuration({
+  apiKey: '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',
+});
+const openai = new OpenAIApi(configuration);
+
+// Función para hacer una petición a la API de OpenAI
+async function getCompletion(prompt) {
+  try {
+    const completion = await openai.createCompletion({
+      model: 'text-davinci-003',
+      prompt: prompt,
+      max_tokens: 100,
+      temperature: 0.8,
+    });
+
+    
+    return completion.data.choices[0].text;
+    
+    
+  } catch (error) {
+    console.error('Error al hacer la petición a la API de OpenAI:', error);
+    return null;
+  }
+}
+
+
+
 
 
 const flowPreguntas = addKeyword(['👉 Preguntas Frecuentes']).addAnswer(
@@ -117,10 +148,20 @@ const flowBoda = addKeyword(['👉 El día de la boda']).addAnswer(
 )
 
 
+const flowO = addKeyword('open')
+    .addAnswer('Hola soy ChatGPT, Dime ¿Cómo puedo ayudarte hoy?', null, async (ctx, {flowDynamic}) => {
 
-const flow = addKeyword(['hola']).addAnswer(
+        const response = await getCompletion();
+        await flowDynamic(response)
 
+    })
+
+
+const flow = addKeyword(['hola']).addAnswer( 
+    
     ['...'],{ media: 'https://arodyfajardo.com/wp-content/uploads/2023/03/intro2.mp4'}
+
+    
 
 ).addAnswer(
         [
@@ -136,4 +177,4 @@ const flow = addKeyword(['hola']).addAnswer(
     )
 
 //exportamos el flow en node
-module.exports = { flow, flowSesionesPreBoda, flowBoda, flowAdicionales, flowPreguntas }
+module.exports = { flow, flowO, flowSesionesPreBoda, flowBoda, flowAdicionales, flowPreguntas }

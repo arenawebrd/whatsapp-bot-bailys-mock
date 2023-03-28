@@ -1,0 +1,20 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219611382035@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0384013F0158945DB38',
+    participant: undefined
+  },
+  messageTimestamp: 1680042684,
+  pushName: 'Arody Fotografía',
+  message: Message {
+    conversation: 'open',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Arody Fotografía',
+  body: 'open',
+  from: '5219611382035'
+}
