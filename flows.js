@@ -5,7 +5,7 @@ const { Configuration, OpenAIApi } = require('openai');
 
 // Configura la biblioteca openai con tu clave API
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
 
@@ -15,8 +15,8 @@ async function getCompletion(prompt) {
     const completion = await openai.createCompletion({
       model: 'text-davinci-003',
       prompt: prompt,
-      max_tokens: 100,
-      temperature: 0.8,
+      max_tokens: 50,
+      temperature: 0.5,
     });
 
     
@@ -151,7 +151,8 @@ const flowBoda = addKeyword(['👉 El día de la boda']).addAnswer(
 const flowO = addKeyword('open')
     .addAnswer('Hola soy ChatGPT, Dime ¿Cómo puedo ayudarte hoy?', null, async (ctx, {flowDynamic}) => {
 
-        const response = await getCompletion();
+        console.log(ctx.body);
+        const response = await getCompletion("dime si tienes tacos");
         await flowDynamic(response)
 
     })
